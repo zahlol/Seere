@@ -1836,3 +1836,5 @@ task.spawn(function()
         end
     end
 end)
+getgenv().library = library
+return library
